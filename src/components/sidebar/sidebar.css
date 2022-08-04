@@ -1,0 +1,19 @@
+.sidebar {
+    background-color: #282c34;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    text-align: right;
+    font-weight: 200;
+    width: 14%;
+    height: 100%;
+  }
+  
+  .sidebar > div {
+    width: 100%;
+    margin-bottom: 1px;
+    flex: 1 0 auto;
+    display: flex;
+  }
