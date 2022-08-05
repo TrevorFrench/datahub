@@ -1,5 +1,5 @@
 .sidebar {
-    background-color: #282c34;
+    background-color: white;
     color: black;
     display: flex;
     flex-direction: row;
@@ -7,13 +7,23 @@
     flex: 1 0 auto;
     text-align: right;
     font-weight: 200;
-    width: 14%;
+    width: 255px;
     height: 100%;
+    border-right: 1px black solid;
   }
   
   .sidebar > div {
     width: 100%;
     margin-bottom: 1px;
+    height: 35px;
+    flex: 1 0 auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .sidebar > img {
+    width: 80%;
+    height: 20%;
     flex: 1 0 auto;
     display: flex;
   }
